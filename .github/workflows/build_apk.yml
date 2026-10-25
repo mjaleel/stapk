@@ -37,7 +37,7 @@ jobs:
 
       - name: Build APK with Flet
         run: |
-          flet build apk --project "SalaryAuditor" --description "نظام تدقيق ومعالجة الرواتب" --yes
+          flet build apk --project "SalaryAuditor" --description "نظام تدقيق ومعالجة الرواتب"
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
